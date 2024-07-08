@@ -9,11 +9,17 @@ function Header() {
        </div>
        <div style={{width:'60%'}}>
         <div style={{display:'flex',justifyContent:'space-evenly',}}>
-            <Link to={"/"}>Home</Link>
-            <Link to={"/Profile"}>Profile</Link>
-            <Link to={"/AddProduct"}>AddProduct</Link>
-            <Link>Home</Link>
-            <Link>Home</Link>
+            <Link to={"/"} style={{color:"#E35050"}}>Home</Link>
+            <Link to={"/Profile"} style={{color:"#E35050"}}>Profile</Link>
+            <Link to={"/AddProduct"}style={{color:"#E35050"}}>AddProduct</Link>
+            
+            <div style={{display:'flex',justifyContent:'space-evenly'}}>
+
+            <Link to={"/Login"} style={{color:"#000000",backgroundColor:"#4334BE",borderRadius:19,width:80,textAlign:'center',height:30,marginRight:5}}>Login</Link>
+           
+            <Link to={"/Signup"}>Sign Up</Link>
+            </div>
+           
         </div>
        </div>
     </div>

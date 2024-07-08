@@ -5,6 +5,7 @@ import Signup from './pages/Signup';
 import Profile from './pages/Profile';
 import Addproduct from './pages/Addproduct';
 import Home from './pages/Home';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path='/Profile' Component={Profile}/>
         <Route exact path='/signUp' Component={Signup}/>
         <Route exact path='/AddProduct' Component={Addproduct}/>
+        <Route exact path='/Login' Component={Login}/>
       </Routes>
     </BrowserRouter>
         
