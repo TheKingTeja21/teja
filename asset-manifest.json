@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/github.io/ic-club/static/css/main.ff137803.css",
+    "main.js": "/github.io/ic-club/static/js/main.bfad9712.js",
+    "static/js/453.ed3810f9.chunk.js": "/github.io/ic-club/static/js/453.ed3810f9.chunk.js",
+    "static/media/Background.jpg": "/github.io/ic-club/static/media/Background.d2f83d8455781de4d80f.jpg",
+    "static/media/logo.svg": "/github.io/ic-club/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/github.io/ic-club/index.html",
+    "main.ff137803.css.map": "/github.io/ic-club/static/css/main.ff137803.css.map",
+    "main.bfad9712.js.map": "/github.io/ic-club/static/js/main.bfad9712.js.map",
+    "453.ed3810f9.chunk.js.map": "/github.io/ic-club/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff137803.css",
+    "static/js/main.bfad9712.js"
+  ]
+}
