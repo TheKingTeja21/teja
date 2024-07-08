@@ -35,8 +35,12 @@ function Productcard() {
       await setDoc(doc(db, "Cart", item.id), {
         quantity: 1,
         product: item,
-      });
-      setCart((prevCart) => ({ ...prevCart, [item.id]: item }));
+      }).then(()=>{
+        setCart((prevCart) => ({ ...prevCart, [item.id]: item }));
+        alert("successfully added to cart")
+      }).catch((err) => {
+        console.log(err);
+      })
     } catch (error) {
       alert(error);
     }
