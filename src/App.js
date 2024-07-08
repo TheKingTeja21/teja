@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-      <Route  exact path='/' Component={Home}/>
+      <Route  exact path='/github.io/ic-club' Component={Home}/>
         <Route exact path='/Profile' Component={Profile}/>
         <Route exact path='/signUp' Component={Signup}/>
         <Route exact path='/AddProduct' Component={Addproduct}/>
